@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>iRightBarButton</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let rightButtons = UIBarButtonItem(barButtonSystemItem: .save, target: self, action: #selector(&lt;#action#&gt;))
+        self.navigationItem.rightBarButtonItem = rightButtons</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>28927BAC-DAEA-4659-8FF9-AA777AF335B7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>iRightBarButton</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Right Bar Button</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
