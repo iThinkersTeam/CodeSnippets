@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>iPresentViewController</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>        let storyboard = UIStoryboard(name: "&lt;#Name stroryboard#&gt;", bundle: nil)
+        if let vc = storyboard.instantiateViewController(withIdentifier: "&lt;#Name view contrller#&gt; ") as? &lt;#View Controller#&gt; {
+            self.present(vc, animated: true, completion: nil)
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>136D66AF-BCA1-4394-A656-7CF11D3AFA1D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Present to View Controller</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

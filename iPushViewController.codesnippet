@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>iPushViewController</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let storyboard = UIStoryboard(name: &lt;#name storyboard#&gt;, bundle: nil)
+        if let vc = storyboard.instantiateViewController(withIdentifier: &lt;#View controller ID#&gt;) as? &lt;#View controller#&gt; {
+            self.navigationController?.pushViewController(vc, animated: true)
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CAB8FDEA-5E0D-4568-A91C-933A2194E95B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Push to View Controller</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
