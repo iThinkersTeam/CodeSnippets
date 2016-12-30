@@ -3,27 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>i-storyboardInstance</string>
+	<string>iCollectionViewDelegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static func storyboardInstance() -&gt; &lt;#Controller name#&gt;? {
-        let storyboard = UIStoryboard(name: String(describing: self), bundle: nil)
-        return storyboard.instantiateInitialViewController() as? &lt;#Controller name#&gt;
-    }</string>
+	<string>//MARK: - CollectionViewDelegate
+extension &lt;#name controller#&gt;: UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        &lt;#code#&gt;
+    }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>29F3ACC6-7638-4B68-8303-9CF4009E345D</string>
+	<string>D1E6C3DD-82C3-46A5-9268-286A12C64142</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>StoryboardInstance</string>
+	<string>Collection View Delegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

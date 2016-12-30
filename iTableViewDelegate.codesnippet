@@ -3,27 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>i-storyboardInstance</string>
+	<string>iTableViewDelegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static func storyboardInstance() -&gt; &lt;#Controller name#&gt;? {
-        let storyboard = UIStoryboard(name: String(describing: self), bundle: nil)
-        return storyboard.instantiateInitialViewController() as? &lt;#Controller name#&gt;
-    }</string>
+	<string>//MARK: - TableViewDelegate
+extension &lt;#Controller name#&gt;: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        &lt;#code#&gt;
+    }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>29F3ACC6-7638-4B68-8303-9CF4009E345D</string>
+	<string>B09387C0-F9CF-4659-A716-048CC7204C92</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>StoryboardInstance</string>
+	<string>Table View Delegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

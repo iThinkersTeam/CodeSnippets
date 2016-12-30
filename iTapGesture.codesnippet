@@ -3,27 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>i-storyboardInstance</string>
+	<string>iTapGesture</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static func storyboardInstance() -&gt; &lt;#Controller name#&gt;? {
-        let storyboard = UIStoryboard(name: String(describing: self), bundle: nil)
-        return storyboard.instantiateInitialViewController() as? &lt;#Controller name#&gt;
-    }</string>
+	<string>let tap = UITapGestureRecognizer(target: self, action: #selector(&lt;#name functions#&gt;))
+        view.addGestureRecognizer(tap)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>29F3ACC6-7638-4B68-8303-9CF4009E345D</string>
+	<string>E8D69416-EA30-4C73-88DB-A7E823A54836</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>StoryboardInstance</string>
+	<string>Add tap gesture recognizer</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
